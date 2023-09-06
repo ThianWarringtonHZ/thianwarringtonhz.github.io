@@ -1,0 +1,44 @@
+main {
+    color: red;
+}
+
+.navbar {
+    font-family: sans-serif, arial;
+}
+
+ul {
+    position: sticky;
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.active a {
+    color: white;
+    background-color: #04AA6D;
+}
