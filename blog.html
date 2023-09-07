@@ -9,12 +9,38 @@
   </head>
   <body>
     <ul class="navbar">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/profile.html">Profile</a></li>
-      <li><a href="/dashboard.html">Dashboard</a></li>
-      <li><a href="/faq.html">FAQ</a></li>
-      <li class="active"><a href="/blog.html">Blog</a></li>
-      <li><a href="/blog/post_01.html">Blog - Post</a></li>
+      <li class="navbar-item"><a href="/">Home</a></li>
+      <li class="navbar-item"><a href="/profile.html">Profile</a></li>
+      <li class="navbar-item"><a href="/dashboard.html">Dashboard</a></li>
+      <li class="navbar-item"><a href="/faq.html">FAQ</a></li>
+      <li class="active dropdown navbar-item">
+        <a href="/blog.html" class="dropbtn">Blog</a>
+        <div class="dropdown-content">
+          <a href="/blog/post_01.html">Post 1</a>
+        </div>
+      </li>
+      <li class="dropdown navbar-item" style="float: right;">
+        <a class="dropbtn">More</a>
+        <div class="dropdown-content" style="right:0;padding-right:5px;">
+          <a href="/">Insta</a>
+        </div>
+      </li>
     </ul>
+    <div class="wrapper">
+      <ul class="sidebar">
+        <li class="sidebar-item"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf" target="_blank" rel="noopener noreferrer">Onderwijs- en examenregeling</a></li>
+        <li class="sidebar-item"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" rel="noopener noreferrer">Implementation Regulations</a></li>
+        <li class="sidebar-item"><a href="https://learn.hz.nl/" target="_blank" rel="noopener noreferrer">HZ Learn</a></li>
+        <li class="sidebar-item"><a href="https://teams.microsoft.com/l/channel/19%3a827654897ab746089c081f24aff1c984%40thread.skype/Algemeen?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c" target="_blank" rel="noopener noreferrer">HBO-ICT Teams</a></li>
+        <li class="sidebar-item"><a href="https://hz.osiris-student.nl/#/voortgang/" target="_blank" rel="noopener noreferrer">Study Progress</a></li>
+        <li class="sidebar-item"><a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">HZ GitHub</a></li>
+      </ul>
+      <main>
+        <article>
+          <h2>Thian Warrington</h2>
+          <p>Ewa mensen ik ben Thian! Leuk je hier te zien.</p>
+        </article>
+      </main>
+    </div>
   </body>
 </html>
