@@ -1,8 +1,24 @@
+/*
+
+Design:
+- sidebar tekst duidelijker
+- kleurtjes
+- dropdown geen witte tekst bij hover
+- achtergrond
+
+Content:
+- niet compleet
+
+Code:
+- witregel
+
+*/
+
+
 /* BODY */
 body {
     margin: 0;
 }
-
 
 /* NAVBAR */
 .navbar {
@@ -78,16 +94,12 @@ a {
 }
 
 /*
-PAGE
-*/
-
-/*
 SIDEBAR
 */
 .sidebar {
     display: inline-block;
-    width: 250px;
-    height: 100vh;
+    width: 15%;
+    height: 5000px;
     font-family: sans-serif, arial;
     text-align: left;
     background-color: #adadad;
@@ -96,10 +108,11 @@ SIDEBAR
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
+    position: inline;
     z-index: 1;
     top: 50px; /* 16 + 16 + 18 */
     left: 5;
+    border: 1px solid lime;
 }
 
 .sidebar-item {
@@ -123,9 +136,27 @@ SIDEBAR
 MAIN
 
 */
+.wrapper {
+    overflow: auto;
+}
+
 main {
-    padding-left: 260px; /*250 + 10*/
+    vertical-align: top;
+    width: 84%;
     display: inline-block;
-    width: 100% - 300px;
     font-family: sans-serif, arial;
+    border: 1px solid blue;
+}
+
+/*
+DASHBOARD
+*/
+.dashboard tr, .dashboard th {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.table-notes {
+    text-align: left;
 }
