@@ -127,4 +127,5 @@ main {
     padding-left: 260px; /*250 + 10*/
     display: inline-block;
     width: 100% - 300px;
+    font-family: sans-serif, arial;
 }
