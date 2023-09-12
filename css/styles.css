@@ -28,6 +28,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-item {
@@ -96,7 +98,7 @@ a {
 /*
 SIDEBAR
 */
-.sidebar {
+/* .sidebar {
     display: inline-block;
     width: 15%;
     height: 5000px;
@@ -110,9 +112,22 @@ SIDEBAR
     overflow: hidden;
     position: inline;
     z-index: 1;
-    top: 50px; /* 16 + 16 + 18 */
+    top: 50px;
     left: 5;
-    border: 1px solid lime;
+} */
+.sidebar {
+    display: inline;
+    float: left;
+    position: fixed;
+    height: 100%;
+    width: 12%;
+    font-family: sans-serif, arial;
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    overflow: hidden;
 }
 
 .sidebar-item {
@@ -136,27 +151,55 @@ SIDEBAR
 MAIN
 
 */
-.wrapper {
-    overflow: auto;
-}
 
 main {
     vertical-align: top;
-    width: 84%;
-    display: inline-block;
+    display: inline;
+    float: left;
+    padding-left: 13%;
     font-family: sans-serif, arial;
-    border: 1px solid blue;
 }
 
 /*
 DASHBOARD
 */
-.dashboard tr, .dashboard th {
+.dashboard tr, .dashboard th, .dashboard td {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border: solid darkgray 1px;
 }
 .table-notes {
     text-align: left;
+}
+
+/*
+PROGRESS BAR
+*/
+.progress-bar {
+    border: 1px solid black;
+    width: 40%;
+    height: 30px;
+    align-content: center;
+}
+
+.progress-bar p {
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.progress-bar-progress {
+    background-image: url("https://media.istockphoto.com/id/1225724585/vector/dreamy-smooth-abstract-green-background.jpg?s=612x612&w=0&k=20&c=bJtqpGE9_7ZeRV0PYdzJREjtEfOWbfi9pAzeGA5oWos=");
+    height: 100%;
+}
+
+.progress-bar-below {
+    margin-left: 30%;
+    margin-top: -10px;
+}
+
+.progress-bar-below p {
+    margin-left: -2px;
 }
