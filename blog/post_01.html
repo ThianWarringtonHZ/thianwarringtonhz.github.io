@@ -8,25 +8,30 @@
     <title>Blog - Post</title>
   </head>
   <body>
-    <ul class="navbar">
-      <li class="navbar-item"><a href="/">Home</a></li>
-      <li class="navbar-item"><a href="/profile.html">Profile</a></li>
-      <li class="navbar-item"><a href="/dashboard.html">Dashboard</a></li>
-      <li class="navbar-item"><a href="/faq.html">FAQ</a></li>
-      <li class="dropdown navbar-item">
-        <a href="/blog.html" class="dropbtn">Blog</a>
-        <div class="dropdown-content">
-          <a href="/blog/post_01.html">Post 1</a>
-        </div>
-      </li>
-      <li class="dropdown navbar-item" style="float: right;">
-        <a class="dropbtn">More</a>
-        <div class="dropdown-content" style="right:0;padding-right:5px;">
-          <a href="/">Insta</a>
-        </div>
-      </li>
-    </ul>
-    <div class="wrapper">
+    <!-- Nav bar -->
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-item"><a href="/">Home</a></li>
+        <li class="active navbar-item"><a href="/profile.html">Profile</a></li>
+        <li class="navbar-item"><a href="/dashboard.html">Dashboard</a></li>
+        <li class="navbar-item"><a href="/faq.html">FAQ</a></li>
+        <li class="dropdown navbar-item">
+          <a href="/blog.html" class="dropbtn">Blog</a>
+          <div class="dropdown-content">
+            <a href="/blog/post_01.html">Post 1</a>
+          </div>
+        </li>
+        <li class="dropdown navbar-item" style="float: right;">
+          <a class="dropbtn">More</a>
+          <div class="dropdown-content" style="right:0;padding-right:5px;">
+            <a href="/">Insta</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <!-- Sidebar -->
       <ul class="sidebar">
         <li class="sidebar-item"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf" target="_blank" rel="noopener noreferrer">Onderwijs- en examenregeling</a></li>
         <li class="sidebar-item"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" rel="noopener noreferrer">Implementation Regulations</a></li>
@@ -35,6 +40,8 @@
         <li class="sidebar-item"><a href="https://hz.osiris-student.nl/#/voortgang/" target="_blank" rel="noopener noreferrer">Study Progress</a></li>
         <li class="sidebar-item"><a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">HZ GitHub</a></li>
       </ul>
+
+      <!-- Page content -->
       <main>
         <article>
           <h2>Blog - Post 1</h2>
