@@ -12,18 +12,22 @@
     <nav>
       <ul class="navbar">
         <li class="navbar-item"><a href="/">Home</a></li>
-        <li class="active navbar-item"><a href="/profile.html">Profile</a></li>
+        <li id="active-button" class="navbar-item"><a href="/profile.html">Profile</a></li>
         <li class="navbar-item"><a href="/dashboard.html">Dashboard</a></li>
         <li class="navbar-item"><a href="/faq.html">FAQ</a></li>
-        <li class="dropdown navbar-item">
+        <li id="dropdown-button" class="dropdown navbar-item">
           <a href="/blog.html" class="dropbtn">Blog</a>
           <div class="dropdown-content">
-            <a href="/blog/post_01.html">Post 1</a>
+            <a href="/blog/post_01.html">Studiekeuze</a>
+            <a href="/blog/post_02.html">SWOT Analyse</a>
+            <a href="/blog/post_03.html">Programmeerervaring</a>
+            <a href="/blog/post_04.html">Eerste feedback</a>
+            <a href="/blog/post_05.html">ICT Artikel</a>
           </div>
         </li>
-        <li class="dropdown navbar-item" style="float: right;">
+        <li id="dropdown-button" class="dropdown navbar-item" style="float: right;">
           <a class="dropbtn">More</a>
-          <div class="dropdown-content" style="right:0;padding-right:5px;">
+          <div id="dropdown-button" class="dropdown-content" style="right:0;padding-right:5px;">
             <a href="/">Insta</a>
           </div>
         </li>
@@ -46,7 +50,32 @@
         <article>
           <h2>Profile</h2>
           <hr>
-          <p></p>
+          <span>Deze pagina gaat over mijzelf. Wie ben ik? Wat vind ik leuk? Antwoorden op deze vragen vind je hier!</span>
+          <h4>Korte info over mij:</h4>
+          <ul>
+            <li>Naam: Thian Warrington</li>
+            <li>Leeftijd: 17</li>
+            <li>Verjaardag: 24-09</li>
+            <li>Woonplaats: Hoogerheide</li>
+          </ul>
+          <div class="profile-wrap">
+            <div class="profile-item">
+              <h4>Mijn nieuwe auto</h4>
+              <img src="/resources/me-with-car.jpg" alt="Photo of me with my new car">
+            </div>
+            <div class="profile-item">
+              <h4>Teamleider Albert Heijn</h4>
+              <img src="/resources/me-ah.png" alt="Photo of me in Albert Heijn">
+            </div>
+            <div class="profile-item">
+              <h4>Op festival</h4>
+              <img src="/resources/me-at-festival.jpeg" alt="Photo of me at LOTB">
+            </div>
+            <div class="profile-item">
+              <h4>Met mijn kleine zusje</h4>
+              <img src="/resources/me-with-sister.jpeg" alt="Photo of me with my little sister">
+            </div>
+          </div>
         </article>
       </main>
     </div>

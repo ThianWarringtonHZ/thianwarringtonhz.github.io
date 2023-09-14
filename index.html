@@ -11,17 +11,21 @@
     <!-- Nav bar -->
     <nav>
       <ul class="navbar">
-        <li class="active navbar-item"><a href="/">Home</a></li>
+        <li id="active-button" class="navbar-item"><a href="/">Home</a></li>
         <li class="navbar-item"><a href="/profile.html">Profile</a></li>
         <li class="navbar-item"><a href="/dashboard.html">Dashboard</a></li>
         <li class="navbar-item"><a href="/faq.html">FAQ</a></li>
-        <li class="dropdown navbar-item">
+        <li id="dropdown-button" class="dropdown navbar-item">
           <a href="/blog.html" class="dropbtn">Blog</a>
           <div class="dropdown-content">
-            <a href="/blog/post_01.html">Post 1</a>
+            <a href="/blog/post_01.html">Studiekeuze</a>
+            <a href="/blog/post_02.html">SWOT Analyse</a>
+            <a href="/blog/post_03.html">Programmeerervaring</a>
+            <a href="/blog/post_04.html">Eerste feedback</a>
+            <a href="/blog/post_05.html">ICT Artikel</a>
           </div>
         </li>
-        <li class="dropdown navbar-item" style="float: right;">
+        <li id="dropdown-button" class="dropdown navbar-item" style="float: right;">
           <a class="dropbtn">More</a>
           <div class="dropdown-content" style="right:0;padding-right:5px;">
             <a href="/">Insta</a>
@@ -47,7 +51,10 @@
           <h1>Thian Warrington</h1>
           <hr>
           <div class="main-content">
-            <img src="/resources/me.png" alt="photo of myself">
+            <div>
+              <img src="/resources/me.png" alt="photo of myself">
+              <img src="/resources/me-with-car.jpg" alt="photo of myself with my new car">
+            </div>
             <span>Welkom op mijn website. Hier leer je mij beter kennen en kom je erachter waarom ik voor de studie HBO-ICT op de 
               HZ heb gekozen. Kijk even rustig rond en klik op de knopjes om te ontdekken wat de site te bieden heeft!</span>
             <h3>Waarom deze studie?</h3>
@@ -68,6 +75,7 @@
                 <li>Aansturend</li>
                 <li>Doorbijtend</li>
               </ul>
+              Meer lezen over mij? Bekijk dan de <a href="/profile.html">Profiel</a> pagina.
             </span>
           </div>
         </article>

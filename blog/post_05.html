@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Blog - Post</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-item"><a href="/">Home</a></li>
+        <li class="navbar-item"><a href="/profile.html">Profile</a></li>
+        <li class="navbar-item"><a href="/dashboard.html">Dashboard</a></li>
+        <li class="navbar-item"><a href="/faq.html">FAQ</a></li>
+        <li id="dropdown-button" class="dropdown navbar-item">
+          <a href="/blog.html" class="dropbtn">Blog</a>
+          <div class="dropdown-content">
+            <a href="/blog/post_01.html">Studiekeuze</a>
+            <a href="/blog/post_02.html">SWOT Analyse</a>
+            <a href="/blog/post_03.html">Programmeerervaring</a>
+            <a href="/blog/post_04.html">Eerste feedback</a>
+            <a href="/blog/post_05.html">ICT Artikel</a>
+          </div>
+        </li>
+        <li id="dropdown-button" class="dropdown navbar-item" style="float: right;">
+          <a class="dropbtn">More</a>
+          <div class="dropdown-content" style="right:0;padding-right:5px;">
+            <a href="/">Insta</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <!-- Sidebar -->
+      <ul class="sidebar">
+        <li class="sidebar-item"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf" target="_blank" rel="noopener noreferrer">Onderwijs- en examenregeling</a></li>
+        <li class="sidebar-item"><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" rel="noopener noreferrer">Implementation Regulations</a></li>
+        <li class="sidebar-item"><a href="https://learn.hz.nl/" target="_blank" rel="noopener noreferrer">HZ Learn</a></li>
+        <li class="sidebar-item"><a href="https://teams.microsoft.com/l/channel/19%3a827654897ab746089c081f24aff1c984%40thread.skype/Algemeen?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c" target="_blank" rel="noopener noreferrer">HBO-ICT Teams</a></li>
+        <li class="sidebar-item"><a href="https://hz.osiris-student.nl/#/voortgang/" target="_blank" rel="noopener noreferrer">Study Progress</a></li>
+        <li class="sidebar-item"><a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">HZ GitHub</a></li>
+      </ul>
+
+      <!-- Page content -->
+      <main>
+        <article>
+          <h2>Blog - Artikel</h2>
+          <hr>
+          <h2>Hacker ontdekt kwetsbaarheid in telsoftware verkiezingen: 'Minder dan uur werk'</h2>
+          <p>NOS Nieuws • Dinsdag, 16:02 • Aangepast dinsdag, 18:06</p>
+          <p>Een lek in de stemmentelsoftware die is gebruikt voor verkiezingen in Nederland heeft in potentie het manipuleren van 
+            verkiezingsuitslagen mogelijk gemaakt. Er zijn geen aanwijzingen dat dat is gebeurd; een hacker die het lek ontdekte, heeft 
+            het gemeld bij de Kiesraad. Inmiddels is het opgelost, meldt die instantie.
+
+            Gemeenten gebruiken de software om de totalen van stembureaus bij elkaar op te tellen. De versie met het lek werd voor het 
+            eerst gebruikt in het najaar van 2021, bij de gemeentelijke herindelingsverkiezingen. Dat gebeurde ook bij de gemeenteraadsverkiezingen 
+            een jaar later en bij de Provinciale Statenverkiezingen van afgelopen maart.
+            
+            In juni werd het lek ontdekt. Bij de komende Tweede Kamerverkiezingen van 22 november is het lek niet meer aanwezig.
+          </p>
+          <h4>Gemanipuleerde versie</h4>
+          <p>
+            Door het lek konden kwaadwillenden toegang krijgen tot de infrastructuur van de softwareleverancier die de stemmentelsoftware maakt. 
+            Daarmee zou een aangepaste, gemanipuleerde versie van de software kunnen worden verspreid, waarmee uiteindelijk bijvoorbeeld de 
+            uitslag van verkiezingen zou kunnen worden aangepast.
+            
+            De leverancier van de software heeft "een aantal inlogpogingen geregistreerd", meldt de Kiesraad in antwoord op vragen van de NOS. Er 
+            is echter geen aanleiding om te denken dat dat leidde tot misbruik van de software, benadrukt de instantie.
+            
+            Bovendien worden na het tellen van de stemmen steekproeven genomen om te controleren of de tellingen kloppen, waardoor fraude zou 
+            moeten worden opgemerkt.
+          </p>
+          <h4>Handtekening</h4>
+          <p>
+            De hacker die het probleem vond en meldde, ontdekte dat inloggegevens van de leverancier aanwezig waren in de installatiesoftware. Daarmee 
+            kon hij inloggen op de infrastructuur van de leverancier, waaronder het deel van de infrastructuur waar de stemmentelsoftware was ondergebracht.
+            
+            Hij had daar een eigen, aangepaste versie van de software kunnen plaatsen. Of dat op zichzelf genoeg was geweest om de verkiezingen te 
+            manipuleren, is niet zeker: in theorie moeten gemeenten controleren of de digitale handtekening van de software klopt, voordat ze hem 
+            gebruiken.
+            
+            Met een vervalste handtekening kon de software als legitiem worden aangemerkt; daarvoor had de hacker verder in de interne infrastructuur 
+            van de software moeten doordringen. Er zijn geen concrete aanwijzingen dat dat mogelijk was.
+          </p>
+          <h4>Snel opgepakt</h4>
+          <p>
+            Hacker Maarten Boone, die het lek vond, schrijft minder dan een uur nodig te hebben gehad om het lek uit te pluizen. Tegelijkertijd roemt 
+            hij de reactie van het hoofd ict-beveiliging van de Kiesraad. "Ze hebben het heel snel opgepakt en het oplossen ging soepel en 
+            supersnel", aldus Boone.
+            
+            Ook schrijft hij blij te zijn met de praktijk in Nederland dat hackers met goede bedoelingen op een veilige manier kwetsbaarheden in 
+            computerprogramma's kunnen melden, zonder bang te hoeven zijn voor vervolging.
+          </p>
+          <h4>Installatiesoftware</h4>
+          <p>
+            Het beveiligingsprobleem is waarschijnlijk nooit opgemerkt omdat bij eerdere beveiligingstests de installatiesoftware nooit is onderzocht. 
+            Dat is te lezen in een beslisnota die demissionair minister De Jonge van Binnenlandse Zaken heeft gepubliceerd. Vanaf nu wordt die installatiesoftware ook meegenomen.
+            
+            Uit een aanvullende beveiligingstest, die werd uitgevoerd na melding van het lek, kwamen nog twee kleinere beveiligingsproblemen naar 
+            boven. Die zijn inmiddels opgelost.</p>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
