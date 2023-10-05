@@ -1,21 +1,6 @@
-/*
-
-Design:
-- sidebar tekst duidelijker
-- kleurtjes
-- dropdown geen witte tekst bij hover
-- achtergrond
-
-Content:
-- niet compleet
-
-Code:
-- witregel
-
+/* 
+BODY 
 */
-
-
-/* BODY */
 body {
     margin: 0;
     background-image: url("/resources/background.jpg");
@@ -24,12 +9,13 @@ body {
     background-size: cover;
     background-position: top;
 }
-
 article {
     padding-top: 65px;
 }
 
-/* NAVBAR */
+/* 
+NAVBAR 
+*/
 nav {
     position: fixed;
 	z-index: 2;
@@ -204,12 +190,15 @@ main {
 /*
 DASHBOARD
 */
+.dashboard {
+    border-spacing: 0px;
+}
 .dashboard tr, .dashboard th, .dashboard td {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: solid gray 2px;
+    border: solid gray 1px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 .table-notes {
@@ -254,8 +243,8 @@ INDEX PAGE
     float: right;
 }
 .main-content div img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     display: block;
 }
 
