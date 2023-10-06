@@ -28,7 +28,7 @@ nav {
 	font-family: 'Montserrat', sans-serif;
 }
 nav .navbar {
-    position: absolute;
+  position: absolute;
 	right: 1.5em;
 	top: 0;
 	padding: 0;
@@ -138,7 +138,7 @@ nav #dropdown-button a::after, nav #dropdown-button-active a::after {
 	border-left: .3em solid transparent;
 }
 #dropdown-button-active, #active-button {
-    background-color: #04AA6D;
+    background-color: #2272e8;
     color: white;
 }
 
@@ -173,6 +173,11 @@ SIDEBAR
 }
 .sidebar-item:hover {
     background-color: rgb(141, 141, 141);
+}
+.hzlogo {
+    width: 90%;
+    height: 90%;
+    padding: 5%;
 }
 
 /*
@@ -323,4 +328,8 @@ PROFILE
     width: 350px;
     height: 350px;
     border: solid white 2px;
+}
+.profile-bottom {
+  display: inline-block;
+  max-width: 75%;
 }
